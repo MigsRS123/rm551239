@@ -18,19 +18,27 @@
 
     <div class="container">
         <aside class="banner-1">
-            <span>BANNER-1</span>
+            <img src="./img/banner-lateral-1.png" alt="Banner1">
+
         </aside>
         <section class="conteudo">
-            <span>CONTEUDO</span>    
+            <img src="./img/pic_bulboff.gif" alt="lampadaoff">
+            <button>Desligar</button>
+            <img src="./img/pic_bulbon.gif" alt="lampadaon">
+            <button>Ligar</button>
         </section>
         <aside class="banner-2">
-            <span>BANNER-2</span>
+            <img src="./img/banner-lateral-2.png" alt="Banner2">
         </aside>
     </div>
-    
+
     <footer class="rodape">
         <span>RODAPÉ</span>
         <button onclick="mudarCor()">START</button>
+        <button onclick="clearTimeout(tmp)">STOP</button>
+    </footer>
+    <footer class="conteudo">
+        <button onclick="mudaBanner()">START</button>
         <button onclick="clearTimeout(tmp)">STOP</button>
     </footer>
 </body>

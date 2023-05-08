@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 5em;
     background-color: blue;
     color: #fff;
 }
 
 .container{
     display: flex;
-    height: 60vh;
+    height: auto;
 }
 
 .banner-1{
